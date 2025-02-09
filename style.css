@@ -1,7 +1,7 @@
 :root {
   --color-orange: orange;
   --color-white: white;
-  --colo-black: black;
+  --color-black: black;
 }
 
 * {
@@ -78,6 +78,57 @@ header {
 
 #banner_img img {
   max-width: 100%;
+}
+
+#casos {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+
+  color: var(--color-white);
+  background-color: var(--color-orange);
+}
+
+#casos_texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  text-align: center;
+  width: 300px;
+}
+
+#casos_texto h1 {
+  font-size: 1.6rem;
+  font-weight: 900;
+  color: var(--color-black);
+}
+
+#container {
+  margin-top: 20px;
+  max-width: 90%;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 150px;
+
+  border-radius: 10px;
+}
+
+#container img {
+  width: 150px;
+  height: 150px;
+  object-fit: fill;
+}
+
+#container img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
 }
 
 #metodoGn {
