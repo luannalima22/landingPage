@@ -90,6 +90,7 @@ header {
 
   color: var(--color-white);
   background-color: var(--color-orange);
+  height: 600px;
 }
 
 #casos_texto {
@@ -381,6 +382,10 @@ footer {
 
   #banner_texto {
     width: 500px;
+  }
+
+  #banner_img {
+    width: 450px;
   }
 
   #banner h1 {
